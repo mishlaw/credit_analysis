@@ -7,21 +7,25 @@
 - **Power BI-дашборд** — 5 KPI-карточек, гистограмма по профессиям, круговая диаграмма по целям, слайсер.
 - **Python-дашборд** — статичный PNG на matplotlib + интерактивный на Streamlit.
 
-🗂 Структура проекта
+## 🗂 Структура проекта
+
+```
 credit-analysis/
-├── sql/ # SQL-запросы для анализа
-├── powerbi/ # .pbix-файл отчёта
-├── python/ # код дашборда 
-├── data/ # данные 
+├── sql/                # SQL-запросы для анализа
+├── powerbi/            # .pbix-файл отчёта
+├── python/             # код дашборда (matplotlib + streamlit)
+├── data/               # данные (если публичны)
 └── README.md
+```
 
 ## 📈 Ключевые метрики
 
 | Метрика | Значение |
+|---|---|
 | Всего кредитов | 1 000 |
 | Общая сумма | 3 271 258 ₽ |
 | Средний кредит | 3 271 ₽ |
-| Просрочка (NPL) | X % |
+| Просрочка (NPL) | 30 % |
 
 🖼 Скриншоты
 
@@ -35,6 +39,6 @@ Python (matplotlib)
 
 - SQL (PostgreSQL)
 - Power BI Desktop
-- Python: pandas, matplotlib, seaborn, plotly
-- Git
+- Python: pandas, matplotlib, seaborn
+
 
