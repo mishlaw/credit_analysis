@@ -30,7 +30,7 @@ credit-analysis/
 🖼 Скриншоты
 
 Power BI
-![Power BI dashboard](powerbi/dashboard.png)
+![Power BI dashboard](power BI/dashboard.png)
 
 Python (matplotlib)
 ![Python dashboard](python/dashboard.png)
